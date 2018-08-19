@@ -1,0 +1,7 @@
+<h1>Edit <%= dog.name %></h1>
+<form action='/dogs/<%= dog.id %>' method='post'>
+    Name: <input type='text' name='name' placeholder='<%=dog.name%>'></input><br><br>
+    Breed: <input type='text' name='breed' placeholder='<%=dog.breed%>'></input><br><br>
+    Color: <input type='text' name ='color' placeholder='<%=dog.color%>'></input><br><br>
+    <button>Update</button>
+</form>
